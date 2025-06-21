@@ -1,9 +1,11 @@
 from pathlib import Path
-
-import pyglet.app
-from pyglet import clock, resource
+from pyglet import clock, resource, display
 from pyglet.window import Window
 from pyglet.window.key import KeyStateHandler
+
+import pyglet.app
+
+
 
 RESOURCES = Path(__file__).parent.parent.resolve() / "resources"
 

@@ -1,3 +1,7 @@
+"""THIS IS REQUIRED FOR PYGLET TO FUNCTION ON THE PI5"""
+import os
+os.environ['LIBGL_ALWAYS_SOFTWARE'] = '1'
+
 from pyglet import resource
 from pyglet.math import Vec2
 from pyglet.shapes import Rectangle
